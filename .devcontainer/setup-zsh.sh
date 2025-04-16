@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Clone dotfiles repository
-git clone git@github.com:ko-uema2/dotfiles.git /tmp/dotfiles
+git clone https://github.com/ko-uema2/dotfiles.git /tmp/dotfiles
 cp /tmp/dotfiles/.zshrc ~/.zshrc
 rm -rf /tmp/dotfiles
 
