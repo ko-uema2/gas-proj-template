@@ -1,0 +1,14 @@
+services:
+  gas:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    container_name: gas-proj-template
+    volumes:
+      - ../:/usr/app
+      - gas-node-modules:/usr/app/node_modules
+    working_dir: /usr/app
+    tty: true
+
+volumes:
+  gas-node-modules:
