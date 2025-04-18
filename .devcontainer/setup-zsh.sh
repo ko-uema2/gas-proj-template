@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###############################################
+# NOTE: This script is executed automatically #
+#       as part of the postCreateCommand in   #
+#       devcontainer.json.                    #
+###############################################
+
 # Clone dotfiles repository
 git clone https://github.com/ko-uema2/dotfiles.git /tmp/dotfiles
 cp /tmp/dotfiles/.zshrc ~/.zshrc
