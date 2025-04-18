@@ -6,7 +6,7 @@ WORKDIR /usr/app
 RUN apt update && \
     apt install -y git && \
     apt install -y curl && \
-    apt install --y peco && \
+    apt install -y peco && \
     apt install -y zsh && \
     chsh -s $(which zsh)
 
