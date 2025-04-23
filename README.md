@@ -37,7 +37,7 @@ limitations under the License.
 
     ![](./doc/img/CleanShot%202025-04-19%20at%2005.35.15.png)
 
-    リポジトリを作成すると、`generated from ko-uema2/gas-proj-template` という補足がついていることを確認してください。
+    作成したリポジトリに `generated from ko-uema2/gas-proj-template` という補足がついていることを確認してください。
 
     ![](./doc/img/CleanShot%202025-04-19%20at%2005.39.49.png)
 
