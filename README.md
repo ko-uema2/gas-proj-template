@@ -108,7 +108,7 @@ limitations under the License.
     認証が完了すると、コンテナ内のターミナルに以下のようなメッセージが表示されます。
 
     ```bash
-    You are now logged in as <your-email>
+    You are logged in as <your-email>
     ```
 
-**以上で、環境構築は完了です。これで、Google Apps Script の開発を始める準備が整いました.**
+**以上で環境構築は完了です。これで、Google Apps Script の開発を始める準備が整いました.**
