@@ -42,18 +42,18 @@ limitations under the License.
     ![](./doc/img/CleanShot%202025-04-19%20at%2005.39.49.png)
 
 1. テンプレートから作成したリポジトリをローカルにクローンします。  
-    任意のディレクトリに移動して、以下のコマンドを実行します。
+    ホスト OS で任意のディレクトリに移動して、以下のコマンドを実行します。
 
     ```bash
     git clone <your-repo-url>
     ```
 
-1. Docker Desktop を起動します。
+1. ホスト OS で Docker Desktop を起動します。
 
 1. VSCode で、先程クローンしたリポジトリを開きます。
 
 1. コンテナを起動します。  
-    `shift + cmd + P` を押して、コマンドパレットを開いた後、`Dev Containers: Reopen in Container` を選択します。
+    `shift + cmd + P` を押してコマンドパレットを開いた後、`Dev Containers: Reopen in Container` を選択します。
 
     ![](./doc/img/CleanShot%202025-04-19%20at%2006.13.30.png)
 
@@ -85,7 +85,7 @@ limitations under the License.
     ```
 
 1. `.clasp.json` を作成します。  
-    `.clasp.json.example` を `.clasp-dev.json` にリネームして、先ほど控えた ID 2種類を以下のように転記します。
+    `.clasp.json.example` を `.clasp-dev.json` として複製し、先ほど控えた ID 2種類を以下のように転記します。
 
     ```json
     {
@@ -95,7 +95,7 @@ limitations under the License.
     }
     ```
 
-    > 開発環境と本番環境とで Google Apps Script のプロジェクトを分けたい場合は、`.clasp.json.example` を `.clasp-prod.json` にリネームして、`.clasp-dev.json` と同様に ID を転記してください。
+    > 開発環境と本番環境とで Google Apps Script のプロジェクトを分けたい場合は、`.clasp.json.example` を `.clasp-prod.json` として複製し、`.clasp-dev.json` と同様に ID を転記してください。
 
 1. Google 認証を行います。  
     コンテナ内のターミナルで以下のコマンドを実行します。
