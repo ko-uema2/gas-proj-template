@@ -21,8 +21,6 @@ limitations under the License.
 
 ## 前提
 
-- ホストOS の CPU アーキテクチャが arm64 であること
-  - Apple Silicon Mac など (作者は M3 MacBook Air を使用)
 - ホストOS に Docker Desktop がインストールされていること
 - ホストOS に VSCode がインストールされていること
 - ホストOS の VSCode に Dev Containers 拡張機能がインストールされていること
