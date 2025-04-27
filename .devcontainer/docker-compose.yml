@@ -3,7 +3,7 @@ services:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile
-    container_name: gas-proj-template
+    container_name: ${CONTAINER_NAME:-gas}
     volumes:
       - ../:/usr/app
       - gas-node-modules:/usr/app/node_modules

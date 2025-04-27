@@ -54,6 +54,13 @@ limitations under the License.
 
 1. VSCode で、先程クローンしたリポジトリを開きます。
 
+1. `.env` を作成します。  
+    `.devcontainer/.env.example` を `.devcontainer/.env` として複製し、`container_name` に任意のコンテナ名を設定します。
+
+    ```bash
+    CONTAINER_NAME=<your-container-name>
+    ```
+
 1. コンテナを起動します。  
     `shift + cmd + P` を押してコマンドパレットを開いた後、`Dev Containers: Reopen in Container` を選択します。
 
