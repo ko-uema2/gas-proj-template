@@ -17,7 +17,9 @@ limitations under the License.
 
 ## このテンプレートでできること
 
-このテンプレートを利用することで、以下のことができるようになります。
+以下にまとめました。良ければ参照ください。
+
+[コンテナに GAS + TypeScript + clasp + Jest の環境を作成したい！ - Zenn](https://zenn.dev/ko_uema2/articles/c0d5731ec64eef)
 
 ## 前提
 
